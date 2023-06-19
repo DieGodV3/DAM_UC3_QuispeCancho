@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DAM_UC3_Quispe Diego</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnRegistrar">Registrarse</string>
+    <string name="txtcamp_email1" />
+    <string name="txtcamp_pswrd1" />
+    <string name="txtcamp_nombre" />
+    <string name="txtcamp_apellido" />
+    <string name="txtcamp_email2" />
+    <string name="txtcamp_fecha" />
+    <string name="txtpswrd">Contraseña</string>
+    <string name="txtemail" />
+    <string name="txtcorreo">Correo electrónico</string>
+    <string name="txt1">Regístrate</string>
+    <string name="txt2">Es gratis (y lo seguirá siendo).</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellidos">Apellidos:</string>
+    <string name="txt_correo">Tu dirección de correo electrónico:</string>
+    <string name="txt_contraseña">Contraseña nueva:</string>
+    <string name="txt_sexo">Sexo:</string>
+    <string name="date_nacimiento">Fecha de nacimiento:</string>
+    <string name="rdbtn_hombre">Hombre</string>
+    <string name="rdbtn_mujer" />
+    <string name="rsbtn_mujer">Mujer</string>
+    <string name="txt_cerrar">No cerrar sesión</string>
+</resources>

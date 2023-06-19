@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAD2E4"
+    android:backgroundTint="#CAD2E4"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtcamp_nombre"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#3B5998"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:text="@string/txtcamp_nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/txt_apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_apellidos"
+        android:textColor="#3B5998"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtcamp_apellido"
+        app:layout_constraintEnd_toStartOf="@+id/txtcamp_apellido"
+        app:layout_constraintTop_toTopOf="@+id/txtcamp_apellido" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_sexo"
+        android:textColor="#3B5998"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="124dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_correo"
+        android:textAlignment="textEnd"
+        android:textColor="#3B5998"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtcamp_email2"
+        app:layout_constraintEnd_toStartOf="@+id/txtcamp_email2"
+        app:layout_constraintTop_toTopOf="@+id/txtcamp_email2" />
+
+    <EditText
+        android:id="@+id/txtcamp_apellido"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3B5998"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPersonName"
+        android:text="@string/txtcamp_apellido"
+        app:layout_constraintEnd_toEndOf="@+id/txtcamp_nombre"
+        app:layout_constraintStart_toStartOf="@+id/txtcamp_nombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtcamp_nombre" />
+
+    <EditText
+        android:id="@+id/txtcamp_email2"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3B5998"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textEmailAddress"
+        android:text="@string/txtcamp_email2"
+        app:layout_constraintEnd_toEndOf="@+id/txtcamp_apellido"
+        app:layout_constraintStart_toStartOf="@+id/txtcamp_apellido"
+        app:layout_constraintTop_toBottomOf="@+id/txtcamp_apellido" />
+
+    <EditText
+        android:id="@+id/txtcamp_fecha"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3B5998"
+        android:drawableLeft="@drawable/baseline_today_24"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="date"
+        android:text="@string/txtcamp_fecha"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="96dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/date_nacimiento"
+        android:textAlignment="textEnd"
+        android:textColor="#3B5998"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtcamp_fecha"
+        app:layout_constraintEnd_toStartOf="@+id/txtcamp_fecha"
+        app:layout_constraintTop_toTopOf="@+id/txtcamp_fecha" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_contraseña"
+        android:textColor="#3B5998"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPassword2" />
+
+    <TextView
+        android:id="@+id/txt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt_nombre"
+        android:textColor="#3B5998"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtcamp_nombre"
+        app:layout_constraintEnd_toStartOf="@+id/txtcamp_nombre"
+        app:layout_constraintTop_toTopOf="@+id/txtcamp_nombre" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3B5998"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/txtcamp_email2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/txtcamp_email2"
+        app:layout_constraintTop_toBottomOf="@+id/txtcamp_email2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt2"
+        android:textColor="#3B5998"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/txt1"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="monospace"
+        android:text="@string/txt1"
+        android:textColor="#3B5998"
+        android:textColorLink="#3B5998"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#6EA54C"
+        android:drawableLeft="@drawable/baseline_app_registration_24"
+        android:fontFamily="monospace"
+        android:text="@string/btnRegistrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcamp_fecha" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="119dp"
+        android:background="#3B5998"
+        android:baselineAligned="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="79dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="15dp"
+            android:backgroundTint="#5974AB"
+            android:fontFamily="monospace"
+            android:text="@string/btnEntrar"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/txtcamp_pswrd1"
+            app:layout_constraintStart_toEndOf="@+id/txtcamp_pswrd1" />
+
+        <TextView
+            android:id="@+id/txtpswrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:fontFamily="monospace"
+            android:text="@string/txtpswrd"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/txtcorreo"
+            app:layout_constraintTop_toTopOf="@+id/txtcorreo" />
+
+        <EditText
+            android:id="@+id/txtcamp_pswrd1"
+            android:layout_width="120sp"
+            android:layout_height="30dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:inputType="textPassword"
+            android:text="@string/txtcamp_pswrd1"
+            android:textSelectHandleLeft="@drawable/ic_launcher_foreground"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/txtpswrd"
+            app:layout_constraintTop_toBottomOf="@+id/txtpswrd" />
+
+        <TextView
+            android:id="@+id/txtcorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:text="@string/txtcorreo"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtcamp_email1"
+            android:layout_width="120sp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:inputType="textEmailAddress"
+            android:text="@string/txtcamp_email1"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/txtcorreo"
+            app:layout_constraintTop_toBottomOf="@+id/txtcorreo" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="108dp"
+            android:layout_height="22dp"
+            android:backgroundTint="#E8E0E0"
+            android:text="@string/txt_cerrar"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/txtcamp_email1"
+            app:layout_constraintStart_toStartOf="@+id/txtcamp_email1"
+            app:layout_constraintTop_toBottomOf="@+id/txtcamp_email1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_male_24"
+            android:text="@string/rdbtn_hombre"
+            android:textColor="#3B5998"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_female_24"
+            android:text="@string/rsbtn_mujer"
+            android:textColor="#3B5998"
+            android:textSize="10sp" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
